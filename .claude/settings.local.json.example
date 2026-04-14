@@ -1,0 +1,14 @@
+{
+  "_comment": "EXAMPLE file. Copy to settings.local.json (no `.example` suffix) and edit. settings.local.json is gitignored and holds personal overrides — extra permissions you want to grant yourself, per-machine env vars, or a different default model. See https://code.claude.com/docs/en/settings.md for the full schema.",
+
+  "permissions": {
+    "allow": [
+      "Bash(python my_local_script.py)"
+    ]
+  },
+
+  "env": {
+    "_comment_env": "Per-machine environment variables",
+    "PYTHONPATH": "./src"
+  }
+}

@@ -1,0 +1,14 @@
+# Pinned runtime dependencies. Add new packages with explicit version
+# pins (e.g. `numpy==1.26.4`). Dev-only packages (pytest, black, ruff)
+# can go in a separate `requirements-dev.txt` if you prefer to split
+# them.
+
+# Core
+# numpy==
+# pandas==
+# pyyaml==
+
+# Testing
+# pytest==
+
+# Domain-specific (fill in based on project needs)
