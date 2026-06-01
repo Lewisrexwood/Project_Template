@@ -15,7 +15,13 @@
       "Bash(git status)",
       "Bash(git diff *)",
       "Bash(git log *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git branch:*)",
+      "Bash(git checkout -b *)",
+      "Bash(git push origin:*)",
+      "Bash(gh pr create:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr status:*)"
     ],
     "deny": [
       "Bash(rm -rf *)",
